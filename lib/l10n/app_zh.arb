@@ -1,0 +1,341 @@
+{
+  "appTitle": "Flutter 工具类演示",
+  "@appTitle": {
+    "description": "应用标题"
+  },
+
+  "dioCardTitle": "Dio + Logger 网络请求",
+  "@dioCardTitle": {
+    "description": "Dio 网络请求演示卡片标题"
+  },
+  "dioCardSubtitle": "打印请求地址、参数、响应结果",
+  "@dioCardSubtitle": {
+    "description": "Dio 网络请求演示卡片副标题"
+  },
+
+  "providerCardTitle": "Provider 状态管理",
+  "@providerCardTitle": {
+    "description": "Provider 演示卡片标题"
+  },
+  "providerCardSubtitle": "ChangeNotifier + context.watch",
+  "@providerCardSubtitle": {
+    "description": "Provider 演示卡片副标题"
+  },
+
+  "getCardTitle": "GetX 状态管理",
+  "@getCardTitle": {
+    "description": "GetX 演示卡片标题"
+  },
+  "getCardSubtitle": "GetxController + Obx 响应式",
+  "@getCardSubtitle": {
+    "description": "GetX 演示卡片副标题"
+  },
+
+  "mvvmCardTitle": "GetX MVVM 架构",
+  "@mvvmCardTitle": {
+    "description": "GetX MVVM 演示卡片标题"
+  },
+  "mvvmCardSubtitle": "Model - ViewModel - View 分层",
+  "@mvvmCardSubtitle": {
+    "description": "GetX MVVM 演示卡片副标题"
+  },
+
+  "isolateCardTitle": "Isolate 多线程",
+  "@isolateCardTitle": {
+    "description": "Isolate 演示卡片标题"
+  },
+  "isolateCardSubtitle": "对比主线程阻塞 vs Isolate 流畅",
+  "@isolateCardSubtitle": {
+    "description": "Isolate 演示卡片副标题"
+  },
+
+  "requestSuccess": "请求成功",
+  "@requestSuccess": {
+    "description": "网络请求成功时的 snackbar 标题"
+  },
+  "requestFailed": "请求失败",
+  "@requestFailed": {
+    "description": "网络请求失败时的 snackbar 标题"
+  },
+  "dataPrintedToConsole": "数据已打印到控制台",
+  "@dataPrintedToConsole": {
+    "description": "提示数据已输出到控制台"
+  },
+
+  "providerCounterTitle": "Provider 计数器",
+  "@providerCounterTitle": {
+    "description": "Provider 计数器页面标题"
+  },
+  "currentCount": "当前计数：",
+  "@currentCount": {
+    "description": "计数器上方的标签文字"
+  },
+  "resetConsumer": "重置（Consumer 方式）",
+  "@resetConsumer": {
+    "description": "使用 Consumer 的重置按钮文字"
+  },
+
+  "getCounterTitle": "GetX 计数器",
+  "@getCounterTitle": {
+    "description": "GetX 计数器页面标题"
+  },
+  "reset": "重置",
+  "@reset": {
+    "description": "重置按钮文字"
+  },
+
+  "mvvmUserListTitle": "GetX MVVM - 用户列表",
+  "@mvvmUserListTitle": {
+    "description": "用户列表页面标题"
+  },
+  "noDataHint": "暂无数据，请点击右上角刷新",
+  "@noDataHint": {
+    "description": "用户列表为空时的提示文字"
+  },
+  "ageLabel": "年龄: {age}",
+  "@ageLabel": {
+    "description": "显示用户年龄的标签",
+    "placeholders": {
+      "age": {
+        "type": "int",
+        "example": "25"
+      }
+    }
+  },
+
+  "isolateDemoTitle": "Isolate 多线程对比",
+  "@isolateDemoTitle": {
+    "description": "Isolate 对比演示页面标题"
+  },
+  "observeAnimationHint": "👇 观察这个动画是否流畅",
+  "@observeAnimationHint": {
+    "description": "加载动画上方的提示文字"
+  },
+  "tapButtonHint": "点击下方按钮开始测试",
+  "@tapButtonHint": {
+    "description": "未开始计算时的默认提示文字"
+  },
+  "mainThreadCalculating": "主线程计算中...UI 已冻结",
+  "@mainThreadCalculating": {
+    "description": "主线程计算中的状态文字"
+  },
+  "isolateCalculating": "Isolate 计算中...UI 保持流畅",
+  "@isolateCalculating": {
+    "description": "Isolate 计算中的状态文字"
+  },
+  "calculationResult": "计算结果: {result}",
+  "@calculationResult": {
+    "description": "显示计算结果的文字",
+    "placeholders": {
+      "result": {
+        "type": "int",
+        "example": "4999999950000000"
+      }
+    }
+  },
+  "costMainThread": "耗时: {ms} ms（主线程，UI 卡顿）",
+  "@costMainThread": {
+    "description": "主线程计算的耗时文字",
+    "placeholders": {
+      "ms": {
+        "type": "int",
+        "example": "1200"
+      }
+    }
+  },
+  "costIsolate": "耗时: {ms} ms（Isolate，UI 流畅）",
+  "@costIsolate": {
+    "description": "Isolate 计算的耗时文字",
+    "placeholders": {
+      "ms": {
+        "type": "int",
+        "example": "800"
+      }
+    }
+  },
+  "mainThreadButton": "主线程计算（UI 会卡顿）",
+  "@mainThreadButton": {
+    "description": "主线程计算按钮文字"
+  },
+  "isolateButton": "Isolate 计算（UI 流畅）",
+  "@isolateButton": {
+    "description": "Isolate 计算按钮文字"
+  },
+
+  "settingsTitle": "设置",
+  "@settingsTitle": {
+    "description": "设置页面标题"
+  },
+  "languageSection": "语言",
+  "@languageSection": {
+    "description": "语言设置区域标题"
+  },
+  "followSystem": "跟随系统",
+  "@followSystem": {
+    "description": "跟随系统语言选项"
+  },
+  "english": "English",
+  "@english": {
+    "description": "英语选项"
+  },
+  "chinese": "中文",
+  "@chinese": {
+    "description": "中文选项"
+  },
+  "currentLanguage": "当前：{lang}",
+  "@currentLanguage": {
+    "description": "显示当前语言",
+    "placeholders": {
+      "lang": {
+        "type": "String",
+        "example": "中文"
+      }
+    }
+  },
+
+  "voiceRoomCardTitle": "语音房高并发消息",
+  "@voiceRoomCardTitle": {
+    "description": "语音房高并发消息演示卡片标题"
+  },
+  "voiceRoomCardSubtitle": "四层漏斗：解析→队列→分发→节流",
+  "@voiceRoomCardSubtitle": {
+    "description": "语音房演示卡片副标题"
+  },
+  "voiceRoomTitle": "语音房 · 并发消息演示",
+  "@voiceRoomTitle": {
+    "description": "语音房页面标题"
+  },
+  "simulateBurst": "模拟一波洪峰",
+  "@simulateBurst": {
+    "description": "触发一次消息洪峰的按钮"
+  },
+  "autoStream": "自动持续推送",
+  "@autoStream": {
+    "description": "开始持续消息流的按钮"
+  },
+  "stopStream": "停止",
+  "@stopStream": {
+    "description": "停止消息流的按钮"
+  },
+  "resetRoom": "重置",
+  "@resetRoom": {
+    "description": "重置房间状态的按钮"
+  },
+  "statReceived": "已接收",
+  "@statReceived": {
+    "description": "统计：已接收原始消息"
+  },
+  "statParsed": "已解析",
+  "@statParsed": {
+    "description": "统计：Isolate 已解析消息"
+  },
+  "statQueued": "排队中",
+  "@statQueued": {
+    "description": "统计：当前排队消息"
+  },
+  "statDispatched": "已分发",
+  "@statDispatched": {
+    "description": "统计：已分发到 UI 的消息"
+  },
+  "statDropped": "去重丢弃",
+  "@statDropped": {
+    "description": "统计：去重丢弃的消息"
+  },
+  "statChat": "公屏条数",
+  "@statChat": {
+    "description": "统计：公屏显示条数"
+  },
+  "micSeats": "麦位",
+  "@micSeats": {
+    "description": "麦位区域标题"
+  },
+  "giftOverlayTitle": "礼物飘屏",
+  "@giftOverlayTitle": {
+    "description": "礼物飘屏区域标题"
+  },
+  "publicChat": "公屏",
+  "@publicChat": {
+    "description": "公屏区域标题"
+  },
+  "connected": "已连接",
+  "@connected": {
+    "description": "连接状态：已连接"
+  },
+  "disconnected": "已断开",
+  "@disconnected": {
+    "description": "连接状态：已断开"
+  },
+  "reconnecting": "重连中…",
+  "@reconnecting": {
+    "description": "连接状态：重连中"
+  },
+  "simulateDisconnect": "模拟断线",
+  "@simulateDisconnect": {
+    "description": "模拟断线的按钮"
+  },
+  "emptyChatHint": "还没有消息——点「模拟洪峰」看漏斗怎么工作",
+  "@emptyChatHint": {
+    "description": "公屏为空时的提示"
+  },
+  "noGiftHint": "礼物会在这里飘过",
+  "@noGiftHint": {
+    "description": "无礼物时的提示"
+  },
+
+  "giftDemoCardTitle": "礼物工具类（GiftManager）",
+  "@giftDemoCardTitle": {
+    "description": "独立礼物工具类演示卡片标题"
+  },
+  "giftDemoCardSubtitle": "小礼物合并 xN（同屏 3 个）· 大礼物（嘉年华）每次 1 个 · 其余排队",
+  "@giftDemoCardSubtitle": {
+    "description": "礼物工具类演示卡片副标题"
+  },
+  "giftDemoTitle": "礼物工具类 · 演示",
+  "@giftDemoTitle": {
+    "description": "礼物工具类演示页面标题"
+  },
+  "giftBigSlot": "大礼物位（每次 1 个）",
+  "@giftBigSlot": {
+    "description": "大礼物位区域标题"
+  },
+  "giftSmallSlot": "小礼物位（最多 3 个，合并 xN）",
+  "@giftSmallSlot": {
+    "description": "小礼物位区域标题"
+  },
+  "giftQueueAndStats": "队列与统计",
+  "@giftQueueAndStats": {
+    "description": "队列与统计区域标题"
+  },
+  "giftSendSmallOne": "发 1 个小礼物",
+  "@giftSendSmallOne": {
+    "description": "发送单个小礼物的按钮"
+  },
+  "giftSendSmallBurst": "连发 10 个小礼物",
+  "@giftSendSmallBurst": {
+    "description": "一次发送 10 个小礼物的按钮"
+  },
+  "giftSendBig": "发大礼物",
+  "@giftSendBig": {
+    "description": "发送大礼物（嘉年华）的按钮"
+  },
+  "giftSendBigBurst": "连发 3 个大礼物",
+  "@giftSendBigBurst": {
+    "description": "一次发送 3 个大礼物的按钮"
+  },
+  "giftPendingBig": "等待中的大礼物",
+  "@giftPendingBig": {
+    "description": "统计：队列里的大礼物数"
+  },
+  "giftPendingSmall": "等待中的小礼物",
+  "@giftPendingSmall": {
+    "description": "统计：队列里的小礼物数"
+  },
+  "giftVisibleSmall": "正在展示的小礼物",
+  "@giftVisibleSmall": {
+    "description": "统计：当前展示的小礼物数"
+  },
+  "giftDisplayed": "已进入展示",
+  "@giftDisplayed": {
+    "description": "统计：已进入展示的礼物数"
+  }
+}

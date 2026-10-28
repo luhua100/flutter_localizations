@@ -1,0 +1,1 @@
+ /Users/luhua/Desktop/flutter_words/lib/l10n/app_localizations_en.dart /Users/luhua/Desktop/flutter_words/lib/l10n/app_localizations_zh.dart /Users/luhua/Desktop/flutter_words/lib/l10n/app_localizations.dart:  /Users/luhua/Desktop/flutter_words/l10n.yaml /Users/luhua/Desktop/flutter_words/lib/l10n/app_en.arb /Users/luhua/Desktop/flutter_words/lib/l10n/app_zh.arb

@@ -1,0 +1,341 @@
+{
+  "appTitle": "Flutter Utils Demo",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+
+  "dioCardTitle": "Dio + Logger Network",
+  "@dioCardTitle": {
+    "description": "Title for the Dio network demo card"
+  },
+  "dioCardSubtitle": "Print request URL, params and response",
+  "@dioCardSubtitle": {
+    "description": "Subtitle for the Dio network demo card"
+  },
+
+  "providerCardTitle": "Provider State Management",
+  "@providerCardTitle": {
+    "description": "Title for the Provider demo card"
+  },
+  "providerCardSubtitle": "ChangeNotifier + context.watch",
+  "@providerCardSubtitle": {
+    "description": "Subtitle for the Provider demo card"
+  },
+
+  "getCardTitle": "GetX State Management",
+  "@getCardTitle": {
+    "description": "Title for the GetX demo card"
+  },
+  "getCardSubtitle": "GetxController + Obx reactive",
+  "@getCardSubtitle": {
+    "description": "Subtitle for the GetX demo card"
+  },
+
+  "mvvmCardTitle": "GetX MVVM Architecture",
+  "@mvvmCardTitle": {
+    "description": "Title for the GetX MVVM demo card"
+  },
+  "mvvmCardSubtitle": "Model - ViewModel - View layering",
+  "@mvvmCardSubtitle": {
+    "description": "Subtitle for the GetX MVVM demo card"
+  },
+
+  "isolateCardTitle": "Isolate Multithreading",
+  "@isolateCardTitle": {
+    "description": "Title for the Isolate demo card"
+  },
+  "isolateCardSubtitle": "Compare main thread block vs Isolate smooth",
+  "@isolateCardSubtitle": {
+    "description": "Subtitle for the Isolate demo card"
+  },
+
+  "requestSuccess": "Request Success",
+  "@requestSuccess": {
+    "description": "Snackbar title when network request succeeds"
+  },
+  "requestFailed": "Request Failed",
+  "@requestFailed": {
+    "description": "Snackbar title when network request fails"
+  },
+  "dataPrintedToConsole": "Data printed to console",
+  "@dataPrintedToConsole": {
+    "description": "Snackbar message indicating data was logged"
+  },
+
+  "providerCounterTitle": "Provider Counter",
+  "@providerCounterTitle": {
+    "description": "App bar title for the Provider counter page"
+  },
+  "currentCount": "Current count:",
+  "@currentCount": {
+    "description": "Label shown above the counter value"
+  },
+  "resetConsumer": "Reset (Consumer)",
+  "@resetConsumer": {
+    "description": "Text on the reset button using Consumer"
+  },
+
+  "getCounterTitle": "GetX Counter",
+  "@getCounterTitle": {
+    "description": "App bar title for the GetX counter page"
+  },
+  "reset": "Reset",
+  "@reset": {
+    "description": "Text on the reset button"
+  },
+
+  "mvvmUserListTitle": "GetX MVVM - User List",
+  "@mvvmUserListTitle": {
+    "description": "App bar title for the user list page"
+  },
+  "noDataHint": "No data, tap refresh on the top right",
+  "@noDataHint": {
+    "description": "Hint text when the user list is empty"
+  },
+  "ageLabel": "Age: {age}",
+  "@ageLabel": {
+    "description": "Label showing a user's age",
+    "placeholders": {
+      "age": {
+        "type": "int",
+        "example": "25"
+      }
+    }
+  },
+
+  "isolateDemoTitle": "Isolate Multithreading Compare",
+  "@isolateDemoTitle": {
+    "description": "App bar title for the Isolate demo page"
+  },
+  "observeAnimationHint": "👇 Watch if this animation is smooth",
+  "@observeAnimationHint": {
+    "description": "Hint text above the loading indicator"
+  },
+  "tapButtonHint": "Tap a button below to start",
+  "@tapButtonHint": {
+    "description": "Default hint text before any calculation"
+  },
+  "mainThreadCalculating": "Calculating on main thread... UI frozen",
+  "@mainThreadCalculating": {
+    "description": "Status text during main thread calculation"
+  },
+  "isolateCalculating": "Calculating on Isolate... UI stays smooth",
+  "@isolateCalculating": {
+    "description": "Status text during Isolate calculation"
+  },
+  "calculationResult": "Result: {result}",
+  "@calculationResult": {
+    "description": "Text showing the calculation result",
+    "placeholders": {
+      "result": {
+        "type": "int",
+        "example": "4999999950000000"
+      }
+    }
+  },
+  "costMainThread": "Cost: {ms} ms (main thread, UI janky)",
+  "@costMainThread": {
+    "description": "Cost text for main thread calculation",
+    "placeholders": {
+      "ms": {
+        "type": "int",
+        "example": "1200"
+      }
+    }
+  },
+  "costIsolate": "Cost: {ms} ms (Isolate, UI smooth)",
+  "@costIsolate": {
+    "description": "Cost text for Isolate calculation",
+    "placeholders": {
+      "ms": {
+        "type": "int",
+        "example": "800"
+      }
+    }
+  },
+  "mainThreadButton": "Main Thread (UI janky)",
+  "@mainThreadButton": {
+    "description": "Label for the main thread calculation button"
+  },
+  "isolateButton": "Isolate (UI smooth)",
+  "@isolateButton": {
+    "description": "Label for the Isolate calculation button"
+  },
+
+  "settingsTitle": "Settings",
+  "@settingsTitle": {
+    "description": "App bar title for the settings page"
+  },
+  "languageSection": "Language",
+  "@languageSection": {
+    "description": "Section title for language settings"
+  },
+  "followSystem": "Follow System",
+  "@followSystem": {
+    "description": "Option to follow system language"
+  },
+  "english": "English",
+  "@english": {
+    "description": "English language option"
+  },
+  "chinese": "中文",
+  "@chinese": {
+    "description": "Chinese language option"
+  },
+  "currentLanguage": "Current: {lang}",
+  "@currentLanguage": {
+    "description": "Shows the current language",
+    "placeholders": {
+      "lang": {
+        "type": "String",
+        "example": "English"
+      }
+    }
+  },
+
+  "voiceRoomCardTitle": "Voice Room: High-Concurrency Messages",
+  "@voiceRoomCardTitle": {
+    "description": "Title for the voice room concurrent messages demo card"
+  },
+  "voiceRoomCardSubtitle": "4-layer funnel: parse → queue → dispatch → throttle",
+  "@voiceRoomCardSubtitle": {
+    "description": "Subtitle for the voice room demo card"
+  },
+  "voiceRoomTitle": "Voice Room · Concurrent Messages",
+  "@voiceRoomTitle": {
+    "description": "App bar title for the voice room page"
+  },
+  "simulateBurst": "Simulate a burst",
+  "@simulateBurst": {
+    "description": "Button to fire one message burst"
+  },
+  "autoStream": "Auto stream",
+  "@autoStream": {
+    "description": "Button to start continuous message stream"
+  },
+  "stopStream": "Stop",
+  "@stopStream": {
+    "description": "Button to stop the message stream"
+  },
+  "resetRoom": "Reset",
+  "@resetRoom": {
+    "description": "Button to reset the room state"
+  },
+  "statReceived": "Received",
+  "@statReceived": {
+    "description": "Stat: raw messages received"
+  },
+  "statParsed": "Parsed",
+  "@statParsed": {
+    "description": "Stat: messages parsed in isolate"
+  },
+  "statQueued": "Queued",
+  "@statQueued": {
+    "description": "Stat: messages currently queued"
+  },
+  "statDispatched": "Dispatched",
+  "@statDispatched": {
+    "description": "Stat: messages dispatched to UI"
+  },
+  "statDropped": "Dropped (dup)",
+  "@statDropped": {
+    "description": "Stat: dropped by dedup"
+  },
+  "statChat": "Chat shown",
+  "@statChat": {
+    "description": "Stat: chat rows on screen"
+  },
+  "micSeats": "Mic seats",
+  "@micSeats": {
+    "description": "Section title for mic seats"
+  },
+  "giftOverlayTitle": "Gift overlay",
+  "@giftOverlayTitle": {
+    "description": "Section title for gift overlay"
+  },
+  "publicChat": "Public chat",
+  "@publicChat": {
+    "description": "Section title for public chat"
+  },
+  "connected": "Connected",
+  "@connected": {
+    "description": "Connection status: connected"
+  },
+  "disconnected": "Disconnected",
+  "@disconnected": {
+    "description": "Connection status: disconnected"
+  },
+  "reconnecting": "Reconnecting…",
+  "@reconnecting": {
+    "description": "Connection status: reconnecting"
+  },
+  "simulateDisconnect": "Simulate disconnect",
+  "@simulateDisconnect": {
+    "description": "Button to simulate connection drop"
+  },
+  "emptyChatHint": "No messages yet — fire a burst to see the funnel work",
+  "@emptyChatHint": {
+    "description": "Hint when chat list is empty"
+  },
+  "noGiftHint": "Gifts will fly in here",
+  "@noGiftHint": {
+    "description": "Hint when no gift playing"
+  },
+
+  "giftDemoCardTitle": "Gift Manager (Utility)",
+  "@giftDemoCardTitle": {
+    "description": "Title for the standalone gift manager demo card"
+  },
+  "giftDemoCardSubtitle": "Small gifts xN (max 3) · big gifts (carnival) 1 at a time · rest queued",
+  "@giftDemoCardSubtitle": {
+    "description": "Subtitle for the gift manager demo card"
+  },
+  "giftDemoTitle": "Gift Manager · Demo",
+  "@giftDemoTitle": {
+    "description": "App bar title for the gift manager demo page"
+  },
+  "giftBigSlot": "Big gift slot (1 at a time)",
+  "@giftBigSlot": {
+    "description": "Section title for the big gift slot"
+  },
+  "giftSmallSlot": "Small gift slots (max 3, merged xN)",
+  "@giftSmallSlot": {
+    "description": "Section title for the small gift slots"
+  },
+  "giftQueueAndStats": "Queue & stats",
+  "@giftQueueAndStats": {
+    "description": "Section title for queue and stats"
+  },
+  "giftSendSmallOne": "Send 1 small",
+  "@giftSendSmallOne": {
+    "description": "Button to send a single small gift"
+  },
+  "giftSendSmallBurst": "Burst 10 small",
+  "@giftSendSmallBurst": {
+    "description": "Button to send 10 small gifts at once"
+  },
+  "giftSendBig": "Send big gift",
+  "@giftSendBig": {
+    "description": "Button to send a big gift (carnival)"
+  },
+  "giftSendBigBurst": "Burst 3 big",
+  "@giftSendBigBurst": {
+    "description": "Button to send 3 big gifts at once"
+  },
+  "giftPendingBig": "Big gifts waiting",
+  "@giftPendingBig": {
+    "description": "Stat: big gifts in queue"
+  },
+  "giftPendingSmall": "Small gifts waiting",
+  "@giftPendingSmall": {
+    "description": "Stat: small gifts in queue"
+  },
+  "giftVisibleSmall": "Small on screen",
+  "@giftVisibleSmall": {
+    "description": "Stat: small gifts currently shown"
+  },
+  "giftDisplayed": "Displayed",
+  "@giftDisplayed": {
+    "description": "Stat: gifts that have entered display"
+  }
+}

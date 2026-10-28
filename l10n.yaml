@@ -1,0 +1,17 @@
+# ============================================================================
+# Flutter 国际化 (gen_l10n) 配置文件
+# ----------------------------------------------------------------------------
+# 官方文档：https://docs.flutter.cn/ui/internationalization/
+#
+# 配置说明：
+#   arb-dir               : ARB 翻译文件所在目录
+#   template-arb-file     : 模板文件（英文），其他语言文件以此为基准
+#   output-localization-file : 生成的 Dart 本地化类文件名
+#   output-class-name     : 生成的类名（默认 AppLocalizations）
+#
+# 生成命令：flutter gen-l10n
+# ============================================================================
+arb-dir: lib/l10n
+template-arb-file: app_en.arb
+output-localization-file: app_localizations.dart
+output-class-name: AppLocalizations
